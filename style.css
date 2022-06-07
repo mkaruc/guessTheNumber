@@ -27,7 +27,7 @@ header{
     font-size: 300%;
 }
 section{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #2C8D46;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,17 +58,27 @@ section{
 .guessSubmit{
     padding: .7rem;
     font-size: 2rem;
-    background: #2C8D46;
+    background: black;
     font-weight: bolder;
     border-radius: 10px;
     width: 30%;
+    color: #2C8D46;
+    border: 1px solid #2C8D46;
 }
 
 .resetBtn{
     padding: .7rem;
     font-size: 2rem;
-    background: red;
+    background: black;
     font-weight: bolder;
     border-radius: 10px;
     width: 30%;
+    color: #2C8D46;
+    border: 1px solid #2C8D46;
+}
+section div p{
+    padding: .8rem;
+    background: black;
+    color: #2C8D46;
+    font-size: 200%;
 }
