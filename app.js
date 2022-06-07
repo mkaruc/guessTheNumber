@@ -19,7 +19,7 @@ remainMsg.innerHTML=remain;
  let theMainNumber= Math.floor(Math.random()*100+1);
 console.log(theMainNumber);
  for(guess=1; guess<6; guess++) {
- (document.getElementById("submitguess").onclick ||  =function guess() {
+ document.getElementById("submitguess").onclick=function() {
      let userNumber= document.getElementById("userGuess").value;
 
      if(theMainNumber==userNumber){
@@ -38,7 +38,7 @@ console.log(theMainNumber);
          alertMsg.innerHTML="THIS IS END OF THE GAME!...";
          endMsg.innerHTML="SEE YOU SOON AGAIN DUDE!"
      }
-     if(remain>0 && remain<5){
+     if(remain>0 && remain){
      remainMsg.innerHTML=remain;}
  }}
 
